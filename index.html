@@ -12,36 +12,70 @@
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
+  <!-- Header w. Navbar -->
+
+  <header>
+    <nav class="navbar row">
+      <div class="container">
+        <a class="navbar-brand col-12 col-md-4" href="index.html">Billy Aguinaga</a>
+
+        <div class="col-12 col-md-8" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <div class="row ml-md-auto">
+              <li class="nav-item col-4 text-style">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item col-4 text-style">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item col-4 text-style">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+  <!-- End of header -->
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+  <!-- Main Container -->
+  <div class="container mx-auto" id="main-container">
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+    <h1 class="heading-text">About Me</h1>
 
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+    <hr>
 
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <!-- About Me content -->
 
-    </section>
+    <div class="row">
+      <div class="col-12 col-md-4 my-4">
+        <img class="card-img img-fluid" src="assets/images/cat.jpg" alt="A cat">
+      </div>
+      <div class="col-12 col-md-8 my-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+          porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa.
+          Nunc
+          rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin
+          consectetur.</p>
+        <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
+          eros
+          iaculis, pulvinar quam eget, egestas mauris.</p>
+        <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et
+          mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+    </div>
+    <!-- End of about me content -->
 
   </div>
+  <!-- End of Main Cointainer -->
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="container text-center">
+      <span>Copyright ©</span>
     </div>
   </footer>
 </body>

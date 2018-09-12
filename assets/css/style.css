@@ -45,7 +45,12 @@ hr {
   font-weight: bold;
   font-size: 26px;
 }
+/* contact classes */
+.form-style {
+  padding-bottom: 8%;
+}
 
+/* general */
 .heading-text {
   padding: 2.5% 2%;
   color: #44aaa5;
@@ -65,5 +70,6 @@ hr {
 
 #main-container {
   margin-top: 5%;
+  margin-bottom: 5%;
   background: #ffffff;
 }
